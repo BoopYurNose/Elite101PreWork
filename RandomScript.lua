@@ -4,3 +4,5 @@ while TimerCount > 1 do
     print(TimerCount)
     TimerCount = TimerCount - 1
 end
+
+print("This works")
