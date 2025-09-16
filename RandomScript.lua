@@ -5,4 +5,4 @@ while TimerCount > 1 do
     TimerCount = TimerCount - 1
 end
 
-print("This works")
+print("This is another test")
