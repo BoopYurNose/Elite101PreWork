@@ -1,4 +1,4 @@
---[[NoteStorage = {
+NoteStorage = {
     Note1 = nil,
     Note2 = nil,    
     Note3 = nil,
@@ -12,8 +12,7 @@
 }
 
 for k,v in ipairs(NoteStorage) do
-    print(k,v )
-end]]
+    print(k,v)
+end
 
-
-print("Test")
+print("HI")
