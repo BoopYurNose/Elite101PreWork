@@ -2,7 +2,14 @@
 
 # btw this is unrelated to the PreWork I just wanted to code something ᕦ(⩾﹏⩽)ᕥ
 
-from tabulate import tabulate
+
+# for some reason tabulate defining doesn't work in the repository (I promise you it worked completely fine before I'm not sure what changed but it doesn't work at all now...
+# I actually have no idea why... D: so the table formatting of it when its printed looks.. really crappy to be honest but atleast it works! ٩(◕‿◕)۶
+
+
+#from tabulate import tabulate
+
+
 
 RetailStock = [
     ["Apples", 2.50, 100],
@@ -17,7 +24,7 @@ StockFormat = ("Product", "Price", "Stock") #Format for which the Stock table wi
 
 def StockViewingFunction():
     print("Welcome to the stock viewer menu Here is your stock displayed")
-    print(tabulate (RetailStock, StockFormat, tablefmt = "grid"))
+    print(RetailStock, StockFormat, "\n")
     print("Now going back to MainMenu")
     MainMenu()
 
