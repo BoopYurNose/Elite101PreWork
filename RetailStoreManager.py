@@ -3,7 +3,7 @@
 # btw this is unrelated to the PreWork I just wanted to code something ᕦ(⩾﹏⩽)ᕥ
 
 
-# for some reason tabulate defining doesn't work in the repository (I promise you it worked completely fine before I'm not sure what changed but it doesn't work at all now...
+# for some reason tabulate defining doesn't work in the repository (I promise you it worked completely fine before) I'm not sure what changed but it doesn't work at all now...
 # I actually have no idea why... D: so the table formatting of it when its printed looks.. really crappy to be honest but atleast it works! ٩(◕‿◕)۶
 
 
